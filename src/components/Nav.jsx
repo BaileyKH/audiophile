@@ -45,11 +45,11 @@ export const Nav = () => {
                                 mobile ? 'translate-x-0' : '-translate-x-96'
                             } transition-transform duration-300 ease-in-out`}>
                             <ul className='flex flex-col justify-center items-center gap-y-3 p-6'>
-                                <li className='mobile-links'><Link to='/'>home</Link></li>
-                                <li className='mobile-links'><Link to='/headphones'>headphones</Link></li>
-                                <li className='mobile-links'><Link to='/speakers'>speakers</Link></li>
-                                <li className='mobile-links'><Link to='/earphones'>earphones</Link></li>
-                                <li className='mobile-links'><Link to='/cart'><img src={cart} alt='shopping cart'/></Link></li>
+                                <li className='mobile-links'><Link to='/' onClick={() => setMobile(false)}>home</Link></li>
+                                <li className='mobile-links'><Link to='/headphones' onClick={() => setMobile(false)}>headphones</Link></li>
+                                <li className='mobile-links'><Link to='/speakers' onClick={() => setMobile(false)}>speakers</Link></li>
+                                <li className='mobile-links'><Link to='/earphones' onClick={() => setMobile(false)}>earphones</Link></li>
+                                <li className='mobile-links'><Link to='/cart' onClick={() => setMobile(false)}><img src={cart} alt='shopping cart'/></Link></li>
                             </ul>
                         </div>
 
