@@ -7,7 +7,7 @@
 @layer base {
     /* Temporary body color */
     body {
-        @apply bg-bgDark
+        @apply bg-bgLight
     }
 
     .nav-links {
