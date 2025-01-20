@@ -14,7 +14,7 @@ export const Nav = () => {
     }
 
     return (
-        <header className='fixed bg-bgDark w-full sm:px-8 lg:px-40 mx-auto'>
+        <header className='fixed bg-transparent w-full sm:px-8 lg:px-40 mx-auto'>
             <nav className='flex justify-center items-center w-full border-b border-prodAccent/10'>
                 <div className='hidden lg:flex items-center w-full py-6'>
                     <div className='flex-1 flex justify-start'>
