@@ -1,4 +1,5 @@
 import { ProdBtn } from "../components/ProdBtn";
+import { Products } from "../components/Products";
 
 export const Home = () => {
     return(
@@ -14,6 +15,9 @@ export const Home = () => {
                         className='text-fontLight bg-primAccent hover:bg-lightAccent'
                     />
                 </div>
+            </section>
+            <section>
+                <Products />
             </section>
         </main>
     );
